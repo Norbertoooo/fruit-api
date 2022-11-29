@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/fruit
+    password: postgresql!
+    username: fruit-api
+  jpa:
+    hibernate:
+      ddl-auto: create
+
+server:
+  port: 8080

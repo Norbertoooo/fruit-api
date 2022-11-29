@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  fruit-db:
+    container_name: fruit-db
+    image: postgres
+    environment:
+      POSTGRES_PASSWORD: postgresql!
+      POSTGRES_DB: fruit
+      POSTGRES_USER: fruit-api
+    ports:
+      - "5432:5432"

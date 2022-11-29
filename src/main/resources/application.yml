@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: fruit-api
+  profiles:
+    active: ${PROFILE:local}
